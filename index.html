@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <title>Frontend Mentor | Order summary card</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <div class="h-screen flex flex-col gap-2 items-center justify-center font-sans
+   bg-[url('images/pattern-background-mobile.svg')]  bg-no-repeat bg-contain bg-blue-100
+    md:bg-[url('images/pattern-background-desktop.svg')] ">
+  <div class=" w-[350px] h-[600px] flex flex-col justify-center items-center	 mx-auto text-center
+  relative gap-4 bg-[#fff]	rounded-3xl	">
+  <img src="images/illustration-hero.svg" alt="" class="absolute top-0 rounded-t-3xl mb-2 ">
+  <h1 class="mt-40 font-bold text-2xl text-sky-950">Order Summary</h1>
+
+  <p class="w-6/7 text-slate-400 font-medium">You can now listen to millions of songs, audiobooks, and podcasts on any 
+    device anywhere you like!</p>
+
+  <div class="flex items-center my-4 gap-16">
+    <div class="flex gap-2 ">
+    <img src="images/icon-music.svg" alt="" class="scale-90">
+    <div class="flex flex-col">
+
+    <span class="font-bold text-sky-950">Annual Plan</span>
+    <span class="text-slate-500">$59.99/year</span>
+    </div>
+  </div>
+  <a href="" class="text-blue-700 font-semibold hover:text-violet-500 ">Change</a>
+  </div>
+
+  <button class="bg-blue-700 text-white py-4 px-16 rounded-xl font-semibold hover:bg-violet-500">Proceed to Payment</button>
+  <button class="font-semibold text-slate-600 hover:text-slate-950">Cancel Order</button>
+  </div>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Hossein valikhani</a>.
+  </div>
+</div>
+ 
+</body>
+</html>
